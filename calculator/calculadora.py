@@ -1,6 +1,7 @@
 import math
 
 
+
 def sumar(a: float, b: float) -> float:
     """Retorna la suma de a y b."""
     return a + b
@@ -16,7 +17,6 @@ def multiplicar(a: float, b: float) -> float:
     return a * b
 
 
-
 def decorador(func):
     """Valida que b no sea 0 antes de dividir."""
     def inner(a: float, b: float) -> float:
@@ -30,6 +30,7 @@ def decorador(func):
 def dividir(a: float, b: float) -> float:
     """Retorna la división a / b."""
     return a / b
+
 
 
 def calculadora():
@@ -58,5 +59,3 @@ def calculadora():
 
 if __name__ == "__main__":
     calculadora()
-
-#Agregar toda la info
