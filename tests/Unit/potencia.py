@@ -1,4 +1,4 @@
-from calculadora import potencia
+from calculator.calculadora import potencia
 
 
 def test_potencia_basica():

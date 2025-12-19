@@ -1,4 +1,4 @@
-from calculadora import sumar, raiz_cuadrada
+from calculator.calculadora import sumar, raiz_cuadrada
 
 
 def test_flujo_raiz():

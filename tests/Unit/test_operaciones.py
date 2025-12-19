@@ -1,5 +1,5 @@
 import pytest
-from calculadora import sumar, restar, multiplicar, dividir
+from calculator.calculadora import sumar, restar, multiplicar, dividir
 
 
 def test_sumar():

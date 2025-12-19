@@ -1,5 +1,5 @@
 import pytest
-from calculadora import raiz_cuadrada
+from calculator.calculadora import raiz_cuadrada
 
 
 def test_raiz_cuadrada_positiva():

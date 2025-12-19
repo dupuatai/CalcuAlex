@@ -1,21 +1,16 @@
 import math
 
-
-
 def sumar(a: float, b: float) -> float:
     """Retorna la suma de a y b."""
     return a + b
-
 
 def restar(a: float, b: float) -> float:
     """Retorna la resta de a y b."""
     return a - b
 
-
 def multiplicar(a: float, b: float) -> float:
     """Retorna el producto de a y b."""
     return a * b
-
 
 def decorador(func):
     """Valida que b no sea 0 antes de dividir."""
@@ -24,7 +19,6 @@ def decorador(func):
             raise ValueError("No es posible dividir por 0")
         return func(a, b)
     return inner
-
 
 @decorador
 def dividir(a: float, b: float) -> float:

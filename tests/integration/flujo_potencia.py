@@ -1,4 +1,4 @@
-from calculadora import sumar, potencia
+from calculator.calculadora import sumar, potencia
 
 
 def test_flujo_potencia():
